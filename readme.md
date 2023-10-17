@@ -1,4 +1,4 @@
-# FoodToFork  [Link]("https://shantanumurdio.github.io/foodToFork/")
+# FoodToFork  [Link](https://shantanumurdio.github.io/foodToFork/)
 
 ## Description
 
