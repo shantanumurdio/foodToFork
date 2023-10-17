@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Recursive:wght@500&family=Roboto+Condensed&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Recursive:wght@500&family=Roboto+Condensed&family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    /* border: 2px solid red; */
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    /* border: 2px solid blue; */
+    display: flex;
+    align-items: center;
+    padding: 0px 15px;
+    height: 7%;
+    border-bottom: 3px solid rgb(241, 241, 241);
+}
+
+.a-tag {
+    margin-left: 3rem;
+    padding: 13px 10px;
+    margin-top: 0px;
+}
+
+.a-tag a {
+    padding: 13px 10px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, .87);
+    height: 100%;
+
+}
+
+.a2-recipe {
+    background-color: rgb(241, 241, 241);
+    border-radius: 5px;
+}
+
+#midBody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.midBody-top {
+    display: flex;
+    margin-top: 2rem;
+    font-family: 'Courgette', cursive;
+}
+
+.h1-red {
+    color: red;
+    margin-left: 8px;
+}
+
+.midBody-p {
+    margin-top: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(61, 59, 59);
+    font-size: 15px;
+}
+
+#input-recipe {
+    width: 700px;
+    padding: 9px 14px;
+    font-size: 15px;
+    border: 2px solid rgb(220, 220, 220);
+    border-radius: 5px;
+    margin-top: 1rem;
+
+}
+
+#midBody h2 {
+    margin-top: 1rem;
+    font-family: 'Courgette', cursive;
+}
+
+#input-btn {
+    padding: 10px 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: #1f88be;
+    border: none;
+    font-size: 15px;
+}
+
+#input-btn:hover {
+    background-color: #1d76a2;
+}
+
+/* ----------------- */
+#recipe-cards {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    padding-left: 180px;
+}
+
+.Card {
+    width: 250px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    border-radius: 3px;
+    margin: 30px;
+    cursor: pointer;
+}
+
+#card-img {
+    width: 250px;
+    height: 150px;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+}
+
+#div-title {
+    padding: 6px;
+    padding-left: 15px;
+}
+
+#div-title h3 {
+    font-size: 17px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+#div-Publisher {
+    /* border: 2px solid red; */
+    padding: 5px 4px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid rgb(203, 203, 203);
+}
+
+#div-Publisher h4 {
+    font-size: 17px;
+    font-family: 'Courgette', cursive;
+    color: #b69811;
+}
+
+#buttons {
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+#buttons a, .details-button {
+    /* border: 2px solid blue; */
+    text-decoration: none;
+    padding: 5px 8px;
+}
+
+.details-button {
+    background-color: #2185d0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    border-radius: 3.5px;
+    border: none;
+}
+
+.details-button:hover {
+    background-color: #146aab;
+}
+
+#recipe-url {
+    margin-left: 10px;
+    background-color: #21ba45;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    border-radius: 3.5px;
+}
+
+#recipe-url:hover {
+    background-color: #1ba73c;
+}
