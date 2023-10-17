@@ -10,10 +10,6 @@ FoodToFork is a web application that allows users to search for and discover var
 - **Recipe Details:** Detailed information about a specific recipe, including ingredients and instructions.
 - **Responsive Design:** The application is designed to be responsive across different devices.
 
-## Screenshots
-
-Include screenshots or gifs showcasing different aspects of your project.
-
 ## Technologies Used
 
 - HTML
